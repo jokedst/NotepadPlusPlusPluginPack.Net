@@ -14,6 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NppPlugin</RootNamespace>
     <AssemblyName>NppPlugin</AssemblyName>
+	<BaseIntermediateOutputPath>VSIXDeployment\NppPluginProjectTemplate\obj</BaseIntermediateOutputPath>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -57,12 +58,40 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
-    <!-- <Compile Include="Properties\AssemblyInfo.cs" /> -->
-    <!-- <None Include="AssemblyInfo.cs" /> -->
-    <!-- <None Include="Class1.cs" /> -->
-    <None Include="Visual Studio Project Template C#\$projectname$.csproj" />
+  <ItemGroup>	
+	<None Include="Visual Studio Project Template C#\$projectname$.csproj" />
+    <None Include="Visual Studio Project Template C#\HOW-TO-INSTALL-ME.txt" />
+    <None Include="Visual Studio Project Template C#\Main.cs" />
+    <None Include="Visual Studio Project Template C#\NppPlugin.html" />
     <None Include="Visual Studio Project Template C#\NppPlugin.ico" />
+    <None Include="Visual Studio Project Template C#\Forms\frmMyDlg.cs" ><SubType>Form</SubType></None>
+    <None Include="Visual Studio Project Template C#\Forms\frmMyDlg.Designer.cs"><DependentUpon>frmMyDlg.cs</DependentUpon></None>
+    <None Include="Visual Studio Project Template C#\Forms\frmMyDlg.resx" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\ClikeStringArray.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\Docking_h.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\GatewayDomain.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\IScintillaGateway.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\MenuCmdID_h.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\Msgs_h.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\NotepadPPGateway.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\NppPluginNETBase.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\NppPluginNETHelper.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\Preference_h.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\resource_h.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\ScintillaGateway.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\Scintilla_iface.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\UnmanagedExports.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\Win32.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\DllExport\DllExportAttribute.cs" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\DllExport\Mono.Cecil.dll" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\DllExport\NppPlugin.DllExport.dll" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\DllExport\NppPlugin.DllExport.MSBuild.dll" />
+    <None Include="Visual Studio Project Template C#\PluginInfrastructure\DllExport\NppPlugin.DllExport.targets" />
+    <None Include="Visual Studio Project Template C#\Properties\AssemblyInfo.cs" />
+    <None Include="Visual Studio Project Template C#\Properties\Resources.Designer.cs" />
+    <None Include="Visual Studio Project Template C#\Properties\Resources.resx" />
+    <None Include="Visual Studio Project Template C#\Properties\star.png" />
+    <None Include="Visual Studio Project Template C#\Properties\star_bmp.bmp" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="Visual Studio Project Template C#\NppPlugin.vstemplate" />
