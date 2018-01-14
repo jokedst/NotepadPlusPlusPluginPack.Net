@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="NotepadPlusPlusPluginPack.Net.4aff8d87-b221-496f-81b1-9588a8b33150" Version="1.0" Language="en-US" Publisher="Joakim Wennergren" />
+        <DisplayName>Notepad++ Plugin Pack for .NET</DisplayName>
+        <Description xml:space="preserve">Template for creating plugins for Notepad++</Description>
+        <MoreInfo>https://github.com/kbilsted/NotepadPlusPlusPluginPack.Net</MoreInfo>
+        <License>LICENSE.md</License>
+        <Icon>NppPlugin.ico</Icon>
+        <Tags>Notepad++ Plugin</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,16.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="NppPluginProjectTemplate" d:TargetPath="|NppPluginProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" TargetVersion="[15.0,16.0)" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>

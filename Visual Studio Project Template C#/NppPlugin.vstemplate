@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <VSTemplate xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Version="2.0.0" Type="Project">
   <TemplateData>
-    <Name>Notepad++ Plugin</Name>
+    <Name>Notepad++ C# Plugin</Name>
     <Description>Plugin for notepad++</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
@@ -55,6 +55,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="UnmanagedExports.cs">UnmanagedExports.cs</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs" OpenInEditor="true">Main.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="NppPlugin.html" OpenInWebBrowser="true">NppPlugin.html</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

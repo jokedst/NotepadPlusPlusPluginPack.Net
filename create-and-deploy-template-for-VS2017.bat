@@ -1,0 +1,2 @@
+del "%userprofile%\documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\NppPlugin.zip"
+"c:\Program Files\7-Zip\7z.exe" a -tzip "%userprofile%\documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\NppPlugin.zip" ".\Visual Studio Project Template C#\*"

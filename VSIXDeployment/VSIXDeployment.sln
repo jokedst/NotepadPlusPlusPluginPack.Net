@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIXDeployment", "VSIXDeployment\VSIXDeployment.csproj", "{0C91F6EE-2F20-46FA-8415-DEA83F8B85DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NppPluginProjectTemplate", "..\NppPluginProjectTemplate.csproj", "{83FAAB53-046D-440D-8C16-A27DA790B93E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C91F6EE-2F20-46FA-8415-DEA83F8B85DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C91F6EE-2F20-46FA-8415-DEA83F8B85DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C91F6EE-2F20-46FA-8415-DEA83F8B85DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C91F6EE-2F20-46FA-8415-DEA83F8B85DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83FAAB53-046D-440D-8C16-A27DA790B93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FAAB53-046D-440D-8C16-A27DA790B93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FAAB53-046D-440D-8C16-A27DA790B93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FAAB53-046D-440D-8C16-A27DA790B93E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9672FFC-B5BE-4802-997E-35E0B5E2EB49}
+	EndGlobalSection
+EndGlobal
