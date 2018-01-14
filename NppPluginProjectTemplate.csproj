@@ -31,7 +31,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>VSIXDeployment\NppPluginProjectTemplate\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -41,7 +41,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>VSIXDeployment\NppPluginProjectTemplate\bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -62,7 +62,6 @@
     <!-- <None Include="AssemblyInfo.cs" /> -->
     <!-- <None Include="Class1.cs" /> -->
     <None Include="Visual Studio Project Template C#\$projectname$.csproj" />
-    <None Include="NppPlugin.ico" />
     <None Include="Visual Studio Project Template C#\NppPlugin.ico" />
   </ItemGroup>
   <ItemGroup>
