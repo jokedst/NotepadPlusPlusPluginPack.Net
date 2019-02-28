@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NppPlugin</RootNamespace>
     <AssemblyName>NppPlugin</AssemblyName>
-	<BaseIntermediateOutputPath>VSIXDeployment\NppPluginProjectTemplate\obj</BaseIntermediateOutputPath>
+    <BaseIntermediateOutputPath>VSIXDeployment\NppPluginProjectTemplate\obj</BaseIntermediateOutputPath>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -58,18 +58,22 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>	
-	<None Include="Visual Studio Project Template C#\$projectname$.csproj" />
+  <ItemGroup>
+    <None Include="Visual Studio Project Template C#\$projectname$.csproj" />
     <None Include="Visual Studio Project Template C#\HOW-TO-INSTALL-ME.txt" />
     <None Include="Visual Studio Project Template C#\Main.cs" />
     <None Include="Visual Studio Project Template C#\NppPlugin.html" />
     <None Include="Visual Studio Project Template C#\NppPlugin.ico" />
-    <None Include="Visual Studio Project Template C#\Forms\frmMyDlg.cs" ><SubType>Form</SubType></None>
-    <None Include="Visual Studio Project Template C#\Forms\frmMyDlg.Designer.cs"><DependentUpon>frmMyDlg.cs</DependentUpon></None>
+    <None Include="Visual Studio Project Template C#\Forms\frmMyDlg.cs">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="Visual Studio Project Template C#\Forms\frmMyDlg.Designer.cs">
+      <DependentUpon>frmMyDlg.cs</DependentUpon>
+    </None>
     <None Include="Visual Studio Project Template C#\Forms\frmMyDlg.resx" />
     <None Include="Visual Studio Project Template C#\PluginInfrastructure\ClikeStringArray.cs" />
     <None Include="Visual Studio Project Template C#\PluginInfrastructure\Docking_h.cs" />
-    <None Include="Visual Studio Project Template C#\PluginInfrastructure\GatewayDomain.cs" />
+    <Content Include="Visual Studio Project Template C#\PluginInfrastructure\GatewayDomain.cs" />
     <None Include="Visual Studio Project Template C#\PluginInfrastructure\IScintillaGateway.cs" />
     <None Include="Visual Studio Project Template C#\PluginInfrastructure\MenuCmdID_h.cs" />
     <None Include="Visual Studio Project Template C#\PluginInfrastructure\Msgs_h.cs" />
